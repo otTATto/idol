@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東京理科大学アイドルプロフェクト</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/6f8d6b3f84.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/button.css">
+
+    <!-- JS -->
+    <script type="module" src="js/index.js"></script>
+
+</head>
+
+<body>
+
+    <div class="fadeIn">
+        <img id="logo" src="./src/img/azaleaworksLogo.png" class="rounded" alt="..."
+            style="position: absolute; top: 10px; z-index: 100;">
+    </div>
+
+    <h1 id="titleOfProject" class="text-center f-Kaisei-Decol-Bd color-blue" style="font-size: 40px;">
+        <div class="fadeIn" style="animation-delay: 1.5s;">
+            東京理科大学<span class="color-pink">アイドル</span>プロジェクト
+        </div>
+    </h1>
+
+    <div id="forTapText" class="fadeIn" style="animation-delay: 2.2s;">
+        <div class="text-center f-LineSeedJp-Eb color-light-blue" style="white-space: nowrap;">
+            <div class="row row-cols-auto justify-content-center ">
+                <i class="fa-solid fa-chevron-down" style="margin-top: 4px;"></i>
+                <div id="contentOfTapText" class=""></div>
+                <i class="fa-solid fa-chevron-down" style="margin-top: 4px;"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <!-- アイコン左側 -->
+        <div class="fadeLeft">
+            <div class="fuwafuwa"
+                style="font-size: 40px; position: absolute; top: -200px; left: 5%; color: rgb(152, 175, 206); z-index: 10;">
+                <i class="fa-solid fa-flask"></i>
+            </div>
+
+            <div class="fuwafuwa"
+                style="font-size: 40px; position: absolute; color: rgb(206, 152, 152); top: 180px; left: 15%; animation-delay: -2s; z-index: 10;">
+                <i class="fa-solid fa-fire"></i>
+            </div>
+
+            <div class="fuwafuwa"
+                style="font-size: 40px; position: absolute; color: rgb(152, 206, 188); top: 400px; left: 10%; animation-delay: -3s; z-index: 10;">
+                <i class="fa-solid fa-seedling"></i>
+            </div>
+        </div>
+
+        <!-- 中央のコンテンツ -->
+
+        <div class="">
+            <div id="contentOfCenter" class="fadeIn" style="position: absolute; z-index: 50;">
+                <div class="fuwafuwa-kumo">
+                    <div id="commingSoonText" type="button" onclick="jump(0)"
+                        class="text-center f-Montserrat-eb-i bg-gradation kiran"
+                        style="font-size: 60px; color: rgb(255, 255, 255); background-color: rgb(255, 255, 255, 0.3); border-radius: 1000px;">
+                        <div class="fuwafuwa-text" style="padding: 0px -100px; z-index: 30;">
+                            <div id="mainButtonText">
+                                <span id="t-01" style="animation-delay: 0.7s;" class="fadeLeft">C</span>
+                                <span id="t-02" style="animation-delay: 0.8s;" class="fadeLeft">o</span>
+                                <span id="t-03" style="animation-delay: 0.9s;" class="fadeLeft">m</span>
+                                <span id="t-04" style="animation-delay: 1.0s;" class="fadeLeft">m</span>
+                                <span id="t-05" style="animation-delay: 1.1s;" class="fadeLeft">i</span>
+                                <span id="t-06" style="animation-delay: 1.2s;" class="fadeLeft">n</span>
+                                <span id="t-07" style="animation-delay: 1.3s;" class="fadeLeft">g</span>
+                                <span id="t-08" style="margin-right: 20px;"><br></span>
+                                <span id="t-09" style="animation-delay: 1.4s;" class="fadeLeft">s</span>
+                                <span id="t-10" style="animation-delay: 1.5s;" class="fadeLeft">o</span>
+                                <span id="t-11" style="animation-delay: 1.6s;" class="fadeLeft">o</span>
+                                <span id="t-12" style="animation-delay: 1.7s;" class="fadeLeft">n</span>
+                                <span id="t-13" style="animation-delay: 1.8s;" class="fadeLeft">.</span>
+                                <span id="t-14" style="animation-delay: 1.9s;" class="fadeLeft">.</span>
+                                <span id="t-15" style="animation-delay: 2.0s;" class="fadeLeft">.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- アイコン右側 -->
+        <div class="fadeRight">
+            <div class="fuwafuwa"
+                style="font-size: 40px; position: absolute; color: rgb(152, 206, 206); animation-delay: -1s; right: 5%; top: -300px; z-index: 10;">
+                <i class="fa-solid fa-rocket"></i>
+            </div>
+
+            <div class="fuwafuwa"
+                style="font-size: 40px; position: absolute; color: rgb(184, 152, 206); animation-delay: -5s; right: 15%; top: 80px; z-index: 10;">
+                <i class="fa-solid fa-atom"></i>
+            </div>
+
+            <div class="fuwafuwa"
+                style="font-size: 40px; position: absolute; color: rgb(206, 202, 152); animation-delay: -6s; right: 10%; top: 380px; z-index: 10;">
+                <i class="fa-solid fa-eye-dropper"></i>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- 下の要素のためのマージン -->
+    <div id="margin01" class=""></div>
+
+
+    <!-- 募集要項など -->
+    <div id="applyForm" class="color-light-salmon-pink-bg py-5 fadeIn">
+        <div class="container">
+            <div id="requireTitile" class="f-LineSeedJp-Eb glowAnime color-blue text-center"
+                style="left: 10%; font-size: 30px;">
+                そうだ、<strong class="color-pink" style="margin-left: -10px;">アイドル</strong>になろう!
+            </div>
+            <div id="" class="f-LineSeedJp-Th text-white text-end" style="font-size: 50px; line-height: 0.9em;">
+                王道アイドル×理系イズム
+            </div>
+
+
+            <div class="mt-5"></div>
+
+            <div id="pointArea" class="d-grid mx-auto col-8">
+                <div class="br-20" style="border: 5px solid rgb(90, 130, 145); background-color: aliceblue;">
+                    <div class="text-center color-blue-bg br-t-10 text-white f-Kaisei-Decol-Bd pb-1"
+                        style="font-size: 25px;">
+                        募集要項とポイント
+                    </div>
+
+                    <div class="pt-4 px-3 f-LineSeedJp-Bd color-dark-blue" style="font-size: 18px;">
+                        <p>
+                            <i class="fa-solid fa-check px-1 color-blue"></i>
+                            <span class="color-pink">アイドル</span>になりたい人を募集します！
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check px-1 color-blue"></i>
+                            <span class="color-pink">理科大生</span>の、<span class="color-pink">理科大生</span>による、<span
+                                class="color-pink">理科大生</span>のためのアイドルグループです
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check px-1 color-blue"></i>
+                            他の部活やサークルとの<span class="color-pink">兼任</span>、YouTuber・撮影会モデルなど個人事業との<span
+                                class="color-pink">兼任</span>OK
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check px-1 color-blue"></i>
+                            チケットノルマ・衣装材料費負担<span class="color-pink">なし</span>
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check px-1 color-blue"></i>
+                            企画も運営も、楽曲制作もすべて<span class="color-pink">理科大生</span>がやっているから<span
+                                class="color-pink">安心</span>できる！
+                        </p>
+                    </div>
+
+                    <div class="mt-2"></div>
+
+                    <div class="text-center">
+                        <div class="btn btn-outline-main f-LineSeedJp-Rg br-20 px-3" type="button"
+                            data-bs-toggle="modal" data-bs-target="#appReqModal">
+                            <i class="fa-solid fa-lightbulb"></i>
+                            くわしい募集要項をみる
+                        </div>
+                    </div>
+
+                    <div class="mb-4"></div>
+
+                </div>
+            </div>
+
+            <div class="mb-5"></div>
+
+            <div class="text-center">
+                <div class="d-grid col-8 mx-auto btn btn-lg btn-dusty-pink f-LineSeedJp-Bd br-30" type="button"
+                    style="padding-top: 30px; padding-bottom: 30px; font-size: 25px;">
+                    応募する
+                </div>
+            </div>
+
+            <div class="mb-5"></div>
+
+        </div>
+    </div>
+
+    <!-- フッター -->
+    <div class="color-light-blue-bg">
+        <div class="container">
+            <div class="pt-4"></div>
+
+            <div class="fadeIn">
+                <div class="row justify-content-end row-cols-auto ">
+                    <div class="text-white f-LineSeedJp-Rg align-self-center" style="font-size: 15px;">
+                        東京理科大学アイドルプロジェクト<span style="margin-left: 15px;">✕</span>
+                    </div>
+                    <img id="logo" src="./src/img/azaleaworksLogo.png" class="rounded" alt="..."
+                        style="z-index: 100; width: 100px;">
+                </div>
+            </div>
+
+            <div class="pt-4"></div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="appReqModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+            <div class="modal-content br-20">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 f-LineSeedJp-Bd color-blue" id="exampleModalLabel">
+                        <i class="fa-solid fa-note-sticky"></i>
+                        募集要項
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="mt-2"></div>
+
+                        <div class="row row-cols-auto">
+                            <div class="px-3 f-LineSeedJp-Eb text-white color-blue-bg br-10" style="font-size: 22px;">
+                                1. 募集内容
+                            </div>
+                        </div>
+
+                        <div class="mt-2"></div>
+
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

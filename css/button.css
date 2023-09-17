@@ -1,0 +1,43 @@
+/* アウトライン　メインボタン */
+.btn-outline-main {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(90, 130, 145); /* アウトラインのみのボタンの線の色 */
+    color: rgb(90, 130, 145); /* アウトラインのみのボタンのテキストの色 */
+}
+
+.btn-outline-main:hover, .btn-outline-main:focus, 
+.btn-outline-main:active, .btn-outline-main:active:focus, .btn-outline-main:active:hover, .btn-outline-main:active.focus,
+.btn-outline-main.active, .btn-outline-main.active:focus, .btn-outline-main.active:hover, .btn-outline-main.active.focus,
+.open > .dropdown-toggle.btn-outline-main, 
+.open > .dropdown-toggle.btn-outline-main:hover,
+.open > .dropdown-toggle.btn-outline-main:focus, 
+.open > .dropdown-toggle.btn-outline-main.focus,
+.btn-outline-main.disabled:hover, .btn-outline-main[disabled]:hover, fieldset[disabled] .btn-outline-main:hover,
+.btn-outline-main.disabled:focus, .btn-outline-main[disabled]:focus, fieldset[disabled] .btn-outline-main:focus,
+.btn-outline-main.disabled.focus, .btn-outline-main[disabled].focus, fieldset[disabled] .btn-outline-main.focus {
+    background: rgb(90, 130, 145); /* ボタンの上にポインタを持ってきたり、クリックしたりした時の背景色 */
+    color: white; /* ボタンの上にポインタを持ってきたり、クリックしたりした時のテキストの色 */
+    border: 1px solid rgb(90, 130, 145); /* ボタンの上にポインタを持ってきたり、クリックしたりした時のボタンの境界線の色 */
+}
+
+/* ピンクボタン */
+.btn-dusty-pink {
+    background: rgb(145, 90, 100); /* ボタンの背景色 */
+    color: white; /* ボタンのテキストの色 */
+    border: 1px solid rgb(145, 90, 100); /* ボタンの境界線の色 */
+}
+
+.btn-dusty-pink:hover, .btn-dusty-pink:focus, 
+.btn-dusty-pink:active, .btn-dusty-pink:active:focus, .btn-dusty-pink:active:hover, .btn-dusty-pink:active.focus,
+.btn-dusty-pink.active, .btn-dusty-pink.active:focus, .btn-dusty-pink.active:hover, .btn-dusty-pink.active.focus,
+.open > .dropdown-toggle.btn-dusty-pink, 
+.open > .dropdown-toggle.btn-dusty-pink:hover,
+.open > .dropdown-toggle.btn-dusty-pink:focus, 
+.open > .dropdown-toggle.btn-dusty-pink.focus,
+.btn-dusty-pink.disabled:hover, .btn-dusty-pink[disabled]:hover, fieldset[disabled] .btn-dusty-pink:hover,
+.btn-dusty-pink.disabled:focus, .btn-dusty-pink[disabled]:focus, fieldset[disabled] .btn-dusty-pink:focus,
+.btn-dusty-pink.disabled.focus, .btn-dusty-pink[disabled].focus, fieldset[disabled] .btn-dusty-pink.focus {
+    background: rgb(190, 140, 150); /* ボタンの上にポインタを持ってきたり、クリックしたりした時の背景色 */
+    color: white; /* ボタンの上にポインタを持ってきたり、クリックしたりした時のテキストの色 */
+    border: 1px solid rgb(190, 140, 150); /* ボタンの上にポインタを持ってきたり、クリックしたりした時のボタンの境界線の色 */
+}
