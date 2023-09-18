@@ -165,3 +165,7 @@
   50% { opacity:1;text-shadow: 0 0 10px #fff,0 0 15px #fff; }
   100% { opacity:1; text-shadow: 0 0 0 #fff,0 0 0 #fff;}
 }
+
+a{
+	color: #06b6d4;
+}
