@@ -117,7 +117,9 @@ body{
 .color-gray-bg {
 	background-color: rgb(100, 100, 100);
 }
-
+.color-light-gray-bg {
+	background-color: rgb(234, 235, 237);
+}
 /* red */
 .color-red {
 	color: rgb(199, 71, 71);
