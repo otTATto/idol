@@ -75,7 +75,9 @@ body{
 	  opacity: 0;
 	}
   }
-
+.color-white-bg {
+	background-color: #FFF;
+}
 /* beige */
 .color-beige {
 	color: rgb(113, 106, 78);
