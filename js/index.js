@@ -193,9 +193,5 @@ function jump(num) {
     $('body,html').animate({ scrollTop: pos }, 500); //取得した位置にスクロール。500の数値が大きくなるほどゆっくりスクロール
     return false;
 }
-
-
-
-
 window.jump = jump;
 export { jump }
