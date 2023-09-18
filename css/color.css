@@ -75,7 +75,9 @@ body{
 	  opacity: 0;
 	}
   }
-
+.color-white-bg {
+	background-color: #FFF;
+}
 /* beige */
 .color-beige {
 	color: rgb(113, 106, 78);
@@ -129,6 +131,9 @@ body{
 }
 .color-pink-bg {
 	background-color: rgb(175, 114, 124);
+}
+.color-lighter-pink-bg {
+	background-color: #fdf2f8;
 }
 /* salmon-pink */
 .color-salmon-pink {
