@@ -1,7 +1,7 @@
 // ウィンドウサイズを取得
 function getWindowSize(){
-    var windowWidth_ofContents = window.innerWidth;
-    var windowHeight_ofContents = window.innerHeight;
+    var windowWidth_ofContents = Math.min(window.innerWidth, window.parent.screen.width);
+    var windowHeight_ofContents = Math.min(window.innerHeight, window.parent.screen.height);
 
     console.log("window size (width, height): ( " + windowWidth_ofContents + ", " + windowHeight_ofContents + " )");
 
