@@ -195,11 +195,3 @@ function jump(num) {
 }
 window.jump = jump;
 export { jump }
-
-function jumpend(num) {
-    var pos = $('#contact').offset().top;	//idの上部の距離を取得
-    $('body,html').animate({ scrollTop: pos }, 500); //取得した位置にスクロール。500の数値が大きくなるほどゆっくりスクロール
-    return false;
-}
-window.jumpend = jumpend;
-export { jumpend }
