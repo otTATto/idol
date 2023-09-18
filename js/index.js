@@ -53,7 +53,18 @@ function setContent() {
 
 function setLogo() {
     // ロゴマークの高さを決める
-    var setOfContentHeight = windowHeight / 7;
+    if (windowWidth < 768) {
+        // スモールサイズ以下の処理（スマホだと仮定する）
+        var setOfContentHeight = '80px';
+
+    } else if (windowWidth >= 768 && windowWidth < 992) {
+        // ミディアムサイズの処理（タブレット端末だと仮定する）
+        var setOfContentHeight = '100px';
+
+    } else {
+        // ラージサイズ以上の処理（PC画面であると仮定する）
+        var setOfContentHeight = '125px';
+    }
     $('#logo').css('height', setOfContentHeight);
 
     // ロゴマークの場所を決める
