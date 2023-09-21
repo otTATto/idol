@@ -52,6 +52,11 @@
 
     <!-- JS -->
     <script type="module" src="js/index.js"></script>
+    <script language="javascript" type="text/javascript">
+        function removeWebfont() {
+            $('h1,h2,h3,h4,div,a,p,span,small').removeClass('f-LineSeedJp-Eb f-LineSeedJp-Bd f-LineSeedJp-Rg f-LineSeedJp-Th');
+        }
+    </script>
 
 </head>
 
@@ -732,6 +737,9 @@
                     </div>
                     <img id="logo" src="./src/img/azaleaworksLogo.webp" class="rounded" alt="アゼリアワークス合同会社のロゴ"
                         style="z-index: 100; width: 100px;">
+                </div>
+                <div id="nowebfont" class="d-none text-center">
+                    <a class="text-white" href="javascript:removeWebfont();">ページの読み込みが遅い方へ（簡易デザイン）</a>
                 </div>
             </div>
         </div>

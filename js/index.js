@@ -12,6 +12,9 @@ const sleep = (second) => new Promise(resolve => setTimeout(resolve, second * 10
 // ページが読み込まれたときに実行
 window.onload = async function () {
     setContent();
+    if ( navigator.userAgent.indexOf('Android') > 0 ){
+        $('#nowebfont').removeClass('d-none');
+    }
 
     setInterval(async () => {
         // ボタンの内容を周期的に変化させる
