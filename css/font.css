@@ -5,7 +5,7 @@
         /* Medium Italic */
         @font-face {
             font-family: 'Montserrat-MediumItalic';
-            src: url('../src/font/Montserrat/Montserrat-MediumItalic.ttf') format('truetype');
+            src: url('../src/font/Montserrat/Montserrat-MediumItalic.ttf') format('truetype'), local(sans-serif);
         }
         .f-Montserrat-md-i {
             font-family: 'Montserrat-MediumItalic';
@@ -14,7 +14,7 @@
         /* Extra Bold Italic */
         @font-face {
             font-family: 'Montserrat-ExtraBoldItalic';
-            src: url('../src/font/Montserrat/Montserrat-ExtraBoldItalic.ttf') format('truetype');
+            src: url('../src/font/Montserrat/Montserrat-ExtraBoldItalic.ttf') format('truetype'), local(sans-serif);
         }
         .f-Montserrat-eb-i {
             font-family: 'Montserrat-ExtraBoldItalic';
@@ -25,7 +25,7 @@
         /* Bold */
         @font-face {
             font-family: 'LINESeedJP-Bd';
-            src: url('../src/font/LINESeedJP/LINESeedJP_TTF_Bd.ttf') format('truetype');
+            src: url('../src/font/LINESeedJP/LINESeedJP_TTF_Bd.ttf') format('truetype'), local(sans-serif);
         }
         .f-LineSeedJp-Bd {
             font-family: 'LINESeedJP-Bd';
@@ -34,7 +34,7 @@
         /* Extra Bold */
         @font-face {
             font-family: 'LINESeedJP-Eb';
-            src: url('../src/font/LINESeedJP/LINESeedJP_TTF_Eb.ttf') format('truetype');
+            src: url('../src/font/LINESeedJP/LINESeedJP_TTF_Eb.ttf') format('truetype', local(sans-serif));
         }
         .f-LineSeedJp-Eb {
             font-family: 'LINESeedJP-Eb';
@@ -43,7 +43,7 @@
         /* Regular */
         @font-face {
             font-family: 'LINESeedJP-Rg';
-            src: url('../src/font/LINESeedJP/LINESeedJP_TTF_Rg.ttf') format('truetype');
+            src: url('../src/font/LINESeedJP/LINESeedJP_TTF_Rg.ttf') format('truetype'), local(sans-serif);
         }
         .f-LineSeedJp-Rg {
             font-family: 'LINESeedJP-Rg';
@@ -52,7 +52,7 @@
         /* Thin */
         @font-face {
             font-family: 'LINESeedJP-Th';
-            src: url('../src/font/LINESeedJP/LINESeedJP_TTF_Th.ttf') format('truetype');
+            src: url('../src/font/LINESeedJP/LINESeedJP_TTF_Th.ttf') format('truetype'), local(sans-serif);
         }
         .f-LineSeedJp-Th {
             font-family: 'LINESeedJP-Th';
@@ -63,7 +63,7 @@
         /* Bold */
         @font-face {
             font-family: 'Kaisei-Decol-Bd';
-            src: url('../src/font/Kaisei_Decol/KaiseiDecol-Bold.ttf') format('truetype');
+            src: url('../src/font/Kaisei_Decol/KaiseiDecol-Bold.ttf') format('truetype'), local(serif);
         }
         .f-Kaisei-Decol-Bd {
             font-family: 'Kaisei-Decol-Bd';
@@ -72,7 +72,7 @@
         /* Medium */
         @font-face {
             font-family: 'Kaisei-Decol-Md';
-            src: url('../src/font/Kaisei_Decol/KaiseiDecol-Medium.ttf') format('truetype');
+            src: url('../src/font/Kaisei_Decol/KaiseiDecol-Medium.ttf') format('truetype'), local(serif);
         }
         .f-Kaisei-Decol-Md {
             font-family: 'Kaisei-Decol-Md';
@@ -81,7 +81,7 @@
         /* Regular */
         @font-face {
             font-family: 'Kaisei-Decol-Rg';
-            src: url('../src/font/Kaisei_Decol/KaiseiDecol-Regular.ttf') format('truetype');
+            src: url('../src/font/Kaisei_Decol/KaiseiDecol-Regular.ttf') format('truetype'), local(serif);
         }
         .f-Kaisei-Decol-Rg {
             font-family: 'Kaisei-Decol-Rg';
@@ -92,7 +92,7 @@
         /* Bold */
         @font-face {
             font-family: 'Kaisei-Opti-Bd';
-            src: url('../src/font/Kaisei_Opti/KaiseiOpti-Bold.ttf') format('truetype');
+            src: url('../src/font/Kaisei_Opti/KaiseiOpti-Bold.ttf') format('truetype'), local(serif);
         }
         .f-Kaisei-Opti-Bd {
             font-family: 'Kaisei-Opti-Bd';
@@ -101,7 +101,7 @@
         /* Medium */
         @font-face {
             font-family: 'Kaisei-Opti-Md';
-            src: url('../src/font/Kaisei_Opti/KaiseiOpti-Medium.ttf') format('truetype');
+            src: url('../src/font/Kaisei_Opti/KaiseiOpti-Medium.ttf') format('truetype'), local(serif);
         }
         .f-Kaisei-Opti-Md {
             font-family: 'Kaisei-Opti-Md';
@@ -110,7 +110,7 @@
         /* Regular */
         @font-face {
             font-family: 'Kaisei-Opti-Rg';
-            src: url('../src/font/Kaisei_Opti/KaiseiOpti-Regular.ttf') format('truetype');
+            src: url('../src/font/Kaisei_Opti/KaiseiOpti-Regular.ttf') format('truetype'), local(serif);
         }
         .f-Kaisei-Opti-Rg {
             font-family: 'Kaisei-Opti-Rg';
