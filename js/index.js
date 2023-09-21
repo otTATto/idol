@@ -17,6 +17,9 @@ window.onload = async function () {
     windowHeight = windowSize[1];
 
     setContent();
+    if ( navigator.userAgent.indexOf('Android') > 0 ){
+        $('#nowebfont').removeClass('d-none');
+    }
 
     setInterval(async () => {
         // ボタンの内容を周期的に変化させる
