@@ -11,6 +11,11 @@ const sleep = (second) => new Promise(resolve => setTimeout(resolve, second * 10
 
 // ページが読み込まれたときに実行
 window.onload = async function () {
+    // 表示領域のサイズを取得
+    var windowSize = getWindowSize();
+    windowWidth = windowSize[0];
+    windowHeight = windowSize[1];
+
     setContent();
     if ( navigator.userAgent.indexOf('Android') > 0 ){
         $('#nowebfont').removeClass('d-none');
@@ -36,15 +41,14 @@ window.onload = async function () {
 
 // 画面サイズが変更されたときに実行
 $(window).resize(function () {
+    // 表示領域のサイズを取得（横幅だけを更新）
+    var windowSize = getWindowSize();
+    windowWidth = windowSize[0];
+
     setContent();
 });
 
 function setContent() {
-    // 表示領域のサイズを取得
-    var windowSize = getWindowSize();
-    windowWidth = windowSize[0];
-    windowHeight = windowSize[1];
-
     setLogo();
     setCenter();
     setTitle();
