@@ -35,10 +35,6 @@
     <link rel="stylesheet" href="css/color.css">
     <link rel="stylesheet" href="css/font.css">
     <!-- 
-        本ウェブサイトでは表示フォントに「LINE SEED JP」(https://seed.line.me/) を使用しています。
-        Licensed under SIL Open Font License 1.1 (http://scripts.sil.org/OFL)
-        © LINE 2022
-
         本ウェブサイトでは表示フォントに「Kaisei Decol」(https://github.com/FontKai-Kaisei/Kaisei) を使用しています。
         Licensed under SIL Open Font License 1.1 (http://scripts.sil.org/OFL)
         Copyright 2020 The Kaisei Project Authors
@@ -52,12 +48,16 @@
 
     <!-- JS -->
     <script type="module" src="js/index.js"></script>
-    <script language="javascript" type="text/javascript">
-        function removeWebfont() {
-            $('h1,h2,h3,h4,div,a,p,span,small').removeClass('f-LineSeedJp-Eb f-LineSeedJp-Bd f-LineSeedJp-Rg f-LineSeedJp-Th');
-            $('#nowebfont').addClass('d-none');
-        }
-    </script>
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'lun4aev',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
 
 </head>
 

@@ -20,42 +20,32 @@
             font-family: 'Montserrat-ExtraBoldItalic';
         }
 
-    /* LINE Seed JP */
-
-        /* Bold */
-        @font-face {
-            font-family: 'LINESeedJP-Bd';
-            src: url('../src/font/LINESeedJP/LINESeedJP_TTF_Bd.ttf') format('truetype'), local(sans-serif);
-        }
-        .f-LineSeedJp-Bd {
-            font-family: 'LINESeedJP-Bd';
-        }
-
-        /* Extra Bold */
-        @font-face {
-            font-family: 'LINESeedJP-Eb';
-            src: url('../src/font/LINESeedJP/LINESeedJP_TTF_Eb.ttf') format('truetype', local(sans-serif));
-        }
-        .f-LineSeedJp-Eb {
-            font-family: 'LINESeedJP-Eb';
-        }
-
-        /* Regular */
-        @font-face {
-            font-family: 'LINESeedJP-Rg';
-            src: url('../src/font/LINESeedJP/LINESeedJP_TTF_Rg.ttf') format('truetype'), local(sans-serif);
-        }
-        .f-LineSeedJp-Rg {
-            font-family: 'LINESeedJP-Rg';
-        }
-
-        /* Thin */
-        @font-face {
-            font-family: 'LINESeedJP-Th';
-            src: url('../src/font/LINESeedJP/LINESeedJP_TTF_Th.ttf') format('truetype'), local(sans-serif);
-        }
         .f-LineSeedJp-Th {
-            font-family: 'LINESeedJP-Th';
+            font-family: "m-plus-rounded-1p", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            transform:rotateZ(0.03deg);
+
+        }
+
+        .f-LineSeedJp-Rg {
+            font-family: "m-plus-rounded-1p", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            transform:rotateZ(0.03deg);
+        }
+
+        .f-LineSeedJp-Bd {
+            font-family: "m-plus-rounded-1p", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            transform:rotateZ(0.03deg);
+        }
+
+        .f-LineSeedJp-Eb {
+            font-family: "m-plus-rounded-1p", sans-serif;
+            font-weight: 700;
+            font-style: normal;
         }
 
     /* Kaisei-Decol */
