@@ -25,14 +25,14 @@ window.onload = async function () {
         // ボタンの内容を周期的に変化させる
         $('#mainButtonText').removeClass('fadeIn').addClass('fadeOut');
         await sleep(3);
-        $('#commingSoonText').removeClass('f-Montserrat-eb-i').addClass('f-LineSeedJp-Eb');
+        $('#commingSoonText').removeClass('f-Montserrat-eb-i').addClass('f-m-plus-rounded-1p-Bd');
         let mainButtonText = document.getElementById('mainButtonText');
         mainButtonText.innerHTML = '詳細は<br>こちら！';
         $('#mainButtonText').removeClass('fadeOut').addClass('fadeIn');
         await sleep(5);
         $('#mainButtonText').removeClass('fadeIn').addClass('fadeOut');
         await sleep(3);
-        $('#commingSoonText').removeClass('f-LineSeedJp-Eb').addClass('f-Montserrat-eb-i');
+        $('#commingSoonText').removeClass('f-m-plus-rounded-1p-Bd').addClass('f-Montserrat-eb-i');
         mainButtonText.innerHTML = 'Comming<br>soon...';
         $('#mainButtonText').removeClass('fadeOut').addClass('fadeIn');
         await sleep(5);
