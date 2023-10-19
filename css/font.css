@@ -3,12 +3,10 @@
         /* Extra Bold Italic */
         @font-face {
             font-family: 'Montserrat-ExtraBoldItalic';
-            src: url('../src/font/Montserrat/Montserrat-ExtraBoldItalic.ttf') format('truetype'), local(sans-serif);
+            src: url('../src/font/Montserrat-ExtraBoldItalic.woff') format('woff'), local(sans-serif);
         }
         .f-Montserrat-eb-i {
-            font-family: "montserrat", sans-serif;
-            font-weight: 800;
-            font-style: italic;
+            font-family: 'Montserrat-ExtraBoldItalic', sans-serif;
         }
 
         /* Adobe font */
@@ -36,8 +34,8 @@
         /* Bold */
         @font-face {
             font-family: 'Kaisei-Decol-Bd';
-            src: url('../src/font/Kaisei_Decol/KaiseiDecol-Bold.ttf') format('truetype'), local(serif);
+            src: url('../src/font/KaiseiDecol-Bold.woff') format('woff'), local(serif);
         }
         .f-Kaisei-Decol-Bd {
-            font-family: 'Kaisei-Decol-Bd';
+            font-family: 'Kaisei-Decol-Bd', serif;
         }
