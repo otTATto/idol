@@ -207,7 +207,7 @@ function setPointArea() {
 
 // ボタンが押されたらジャンプする
 function jump(num) {
-    var pos = $('#applyForm').offset().top;	//idの上部の距離を取得
+    var pos = $('#content').offset().top;	//idの上部の距離を取得
     $('body,html').animate({ scrollTop: pos }, 500); //取得した位置にスクロール。500の数値が大きくなるほどゆっくりスクロール
     return false;
 }
